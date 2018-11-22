@@ -1,4 +1,4 @@
-FROM zhangjb/java:v1.0
+FROM openjdk
 VOLUME /tmp
 ARG DEPENDENCY=target/dependency
 COPY ${DEPENDENCY}/BOOT-INF/lib /app/lib
