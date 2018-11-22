@@ -4,4 +4,4 @@ ARG JAR_FILE
 ADD ${JAR_FILE} /app/app.jar
 WORKDIR /app/
 EXPOSE 8889
-ENTRYPOINT ["java","-jar","./app.jar"
+ENTRYPOINT ["java","-jar","./app.jar"]
